@@ -1,3 +1,7 @@
+
+## Demo Video
+Watch the demo video here: [Google Drive Link] https://drive.google.com/file/d/1EXhbGvKOeS8X7CpBUTmY40zVbP7rDee_/view?usp=sharing
+
 # Take‑Home Assessment
 
 Welcome, candidate! This project contains **intentional issues** that mimic real‑world scenarios.
