@@ -10,7 +10,10 @@ const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 4001;
 
 // Middleware
-app.use(cors({ origin: `http://localhost:${PORT}` }));
+// Allow cross-origin requests from the frontend during development.
+// Originally this was restricted to the backend's own origin which caused
+// requests from the frontend to be blocked (TypeError: Failed to fetch).
+app.use(cors());
 app.use(express.json());
 app.use(morgan('dev'));
 
